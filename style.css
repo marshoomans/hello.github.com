@@ -1,0 +1,188 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+    text-align: center;
+}
+td{
+    width: 20%;
+}
+iframe{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#heading{
+    font-family: 'Goldman', cursive;
+    font-size: 700%;
+    text-align: center;
+}
+#sun{
+    width: 60%;
+    height: 60%;
+    margin-top: 1cm;
+}
+#sat{
+    width: 85%;
+    height: 85%;
+    margin-top: 1cm;
+}
+#sun1{
+    text-align: justify;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 90%;
+    margin: 0.4cm;
+    margin-top: 1cm;
+}
+#sun2{
+    width: 3%;
+}
+#hr{
+    margin-bottom: 0.4cm;
+}
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 60%;
+    margin-top: 1cm;
+    border-radius: 50%;
+}
+.frame1{
+    height: 7.7cm;
+    border-bottom: 2px solid white;
+    margin-bottom: 0.4cm ;
+}
+.frame2{
+    height: 10cm;
+    border-right: 2px solid white;
+}
+.frame3{
+    height: 10cm;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ape {
+    animation-name: anm;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: ease-in;
+    animation-fill-mode: initial;
+}
+@keyframes anm {
+    0%    { opacity: 0; }
+    100%   { opacity: 1; color: white; }}
+.change1 {
+    overflow: hidden;
+    animation-name: change;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-delay: 0ms;
+}
+.change2 {
+    overflow: hidden;
+    animation-name: change;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+.change3 {
+    overflow: hidden;
+    animation-name: change;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+.change4 {
+    overflow: hidden;
+    animation-name: change;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-delay: 1.5s;
+}
+.change5 {
+    overflow: hidden;
+    animation-name: change;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+.change6 {
+    overflow: hidden;
+    animation-name: change;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-delay: 2.5s;
+}
+.change7 {
+    overflow: hidden;
+    animation-name: change;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+.change8 {
+    overflow: hidden;
+    animation-name: change;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-delay: 3.5s;
+}
+.change9 {
+    overflow: hidden;
+    animation-name: change;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+}
+@keyframes change {
+    0%      {color: red;}
+    16%     {color: orange;}    
+    33%     {color: yellow;}
+    50%     {color: green;}
+    66%     {color: blue;}
+    83%     {color: violet;}
+    100%    {color: indigo;}
+}
